@@ -1,5 +1,5 @@
 # 🦊 Python Wallet Manager
-[![Copilot-20250601-124946.png](https://i.postimg.cc/P5TQq2RL/Copilot-20250601-124946.png)](https://postimg.cc/QHYT4kss)
+![GADGET SAAVY banner](https://raw.githubusercontent.com/74Thirsty/74Thirsty/main/assets/banner.svg)
 
 ## 🔧 Technologies & Tools
 
@@ -9,8 +9,8 @@
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.20-7BAFD4?logo=ethereum&labelColor=4B9CD3)](https://docs.soliditylang.org)
 [![pYcHARM](https://img.shields.io/badge/Built%20with-PyCharm-782F40?logo=pycharm&logoColor=CEB888)](https://www.jetbrains.com/pycharm/)
 [![Issues](https://img.shields.io/github/issues/74Thirsty/wallet.svg?color=hotpink&labelColor=brightgreen)](https://github.com/74Thirsty/wallet/issues)
-[![Lead Dev](https://img.shields.io/badge/C.Hirschauer-Lead%20Developer-041E42?logo=parrotsecurity&labelColor=8D817B)](https://christopherhirschauer.bio)
-
+[![Lead Dev](https://img.shields.io/badge/C.Hirschauer-Lead%20Developer-041E42?logo=parrotsecurity&labelColor=C5B783)](https://christopherhirschauer.bio)
+[![Security](https://img.shields.io/badge/encryption-AES--256-orange.svg?color=13B5EA&labelColor=9EA2A2)]()
 
 > <p><strong>Christopher Hirschauer</strong><br>
 > Builder @ the bleeding edge of MEV, automation, and high-speed arbitrage.<br>
