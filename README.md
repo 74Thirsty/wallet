@@ -1,10 +1,20 @@
 # 🦊 Python Wallet Manager
+[![Copilot-20250601-124946.png](https://i.postimg.cc/P5TQq2RL/Copilot-20250601-124946.png)](https://postimg.cc/QHYT4kss)
 
-[![Python Version](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Ethereum](https://img.shields.io/badge/network-Ethereum-%236C71C4)](https://ethereum.org/)
-[![Security](https://img.shields.io/badge/encryption-AES--256-orange.svg)]()
-[![Issues](https://img.shields.io/github/issues/74Thirsty/wallet.svg)](https://github.com/74Thirsty/wallet/issues)
+## 🔧 Technologies & Tools
+
+[![Cyfrin](https://img.shields.io/badge/Cyfrin-Audit%20Ready-005030?logo=shield&labelColor=F47321)](https://www.cyfrin.io/)
+[![FlashBots](https://img.shields.io/pypi/v/finta?label=Finta&logo=python&logoColor=2774AE&labelColor=FFD100)](https://www.flashbots.net/)
+[![Python](https://img.shields.io/badge/Python-3.11-003057?logo=python&labelColor=B3A369)](https://www.python.org/)
+[![Solidity](https://img.shields.io/badge/Solidity-0.8.20-7BAFD4?logo=ethereum&labelColor=4B9CD3)](https://docs.soliditylang.org)
+[![pYcHARM](https://img.shields.io/badge/Built%20with-PyCharm-782F40?logo=pycharm&logoColor=CEB888)](https://www.jetbrains.com/pycharm/)
+[![Issues](https://img.shields.io/github/issues/74Thirsty/wallet.svg?color=hotpink&labelColor=brightgreen)](https://github.com/74Thirsty/wallet/issues)
+[![Lead Dev](https://img.shields.io/badge/C.Hirschauer-Lead%20Developer-041E42?logo=parrotsecurity&labelColor=8D817B)](https://christopherhirschauer.bio)
+
+
+> <p><strong>Christopher Hirschauer</strong><br>
+> Builder @ the bleeding edge of MEV, automation, and high-speed arbitrage.<br>
+<em>June 13, 2025</em></p>
 
 A **robust, interactive CLI wallet manager** written in Python.  
 Generate, import, export, delete, and back up wallets securely — with AES-256 encryption and no central server.  
