@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Ethereum](https://img.shields.io/badge/network-Ethereum-%236C71C4)](https://ethereum.org/)
 [![Security](https://img.shields.io/badge/encryption-AES--256-orange.svg)]()
-[![Issues](https://img.shields.io/github/issues/YourUser/YourRepo.svg)](https://github.com/YourUser/YourRepo/issues)
+[![Issues](https://img.shields.io/github/issues/74Thirsty/wallet.svg)](https://github.com/74Thirsty/wallet/issues)
 
 A **robust, interactive CLI wallet manager** written in Python.  
 Generate, import, export, delete, and back up wallets securely — with AES-256 encryption and no central server.  
