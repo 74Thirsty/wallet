@@ -14,23 +14,27 @@
 
 > <p><strong>Christopher Hirschauer</strong><br>
 > Builder @ the bleeding edge of MEV, automation, and high-speed arbitrage.<br>
-<em>June 13, 2025</em></p>
+<em>Updated: August 2025</em></p>
 
 A **robust, interactive CLI wallet manager** written in Python.  
 Generate, import, export, delete, and back up wallets securely — with AES-256 encryption and no central server.  
-Works out-of-the-box with the Ethereum network via a public RPC.
+Supports Ethereum and any EVM-compatible network via public or custom RPC.
 
 ---
 
 ## ✨ Features
 
 - 📦 **Create wallets** with address, private key, and 12-word mnemonic
-- 🔐 **AES-256 encryption** for local wallet storage
+- 🧑‍🤝‍🧑 **Batch wallet creation** (generate multiple at once)
+- 🔐 **AES-256 encryption** for secure local wallet storage
 - 📥 **Import wallets** from private key or mnemonic
-- 📤 **Export wallets** to encrypted JSON
-- 🗑 **Delete wallets** securely
-- 💰 **Check ETH balances** via public Ethereum RPC
+- 📤 **Export wallets** to JSON + QR code (optional)
+- 🗑 **Delete wallets** securely from storage
+- 💰 **Check balances** using Ethereum or custom RPC URLs
 - 💾 **Backup & restore** entire wallet collection
+- 📒 **Export manifest** (YAML or JSON)
+- 🧾 **Export recovery sheet** (mnemonic + derivation path) in plaintext or encrypted form
+- 🦄 **Vanity wallet generation** (search for custom hex prefixes)
 - 🖥 **Interactive CLI** with menu navigation
 - 🚫 **No KYC** — runs locally, no data leaves your machine
 
@@ -38,8 +42,24 @@ Works out-of-the-box with the Ethereum network via a public RPC.
 
 ## 📦 Installation
 
-```bash
-git clone https://github.com/YourUser/wallet-manager.git
+```
+git clone https://github.com/74Thirsty/wallet-manager.git
 cd wallet-manager
 pip install -r requirements.txt
+```
 
+🚀 Usage
+Run the CLI:
+```
+python wallet_manager.py
+```
+
+You’ll be prompted to set a master password.
+All wallets are stored in a single encrypted file: wallets.enc.
+
+⚠️ Security Notes
+
+🔑 Always back up your mnemonic + derivation path using the recovery sheet feature.
+🛡 Forgetting your master password = unrecoverable funds.
+🏴 Vanity wallet generation is computationally expensive — longer prefixes can take hours.
+💻 No telemetry, no cloud storage — your keys, your machine.
