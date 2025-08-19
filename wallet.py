@@ -243,6 +243,28 @@ def create_vanity_wallet(wallets: dict):
             print(f"...still searching, {tries} attempts so far")
 
 
+def export_recovery_sheet(wallets: dict, password: str):
+    """Export recovery info (mnemonic + derivation path + address)."""
+    if not wallets:
+        print("⚠️ No wallets stored.")
+        return
+
+    choice = input("Export recovery sheet as (1) Plain JSON, (2) Encrypted file? ").strip()
+    if choice == "1":
+        fname = "recovery_sheet.json"
+        with open(fname, "w") as f:
+            json.dump(wallets, f, indent=2)
+        print(f"📒 Recovery sheet written to {fname} (PLAINTEXT!)")
+    elif choice == "2":
+        fname = "recovery_sheet.enc"
+        blob = encrypt_data(password, wallets)
+        with open(fname, "wb") as f:
+            f.write(blob)
+        print(f"🔐 Encrypted recovery sheet written to {fname}")
+    else:
+        print("❌ Invalid choice.")
+
+
 # === Main Menu ===
 def main():
     print("=== Python Wallet Maker Pro ===")
@@ -262,6 +284,7 @@ def main():
         print("9. Export Manifest (YAML/JSON)")
         print("10. Create Vanity Wallet")
         print("11. Create Batch Wallets")
+        print("12. Export Recovery Sheet")
         print("0. Exit")
 
         choice = input("> ").strip()
@@ -287,6 +310,8 @@ def main():
             wallets = create_vanity_wallet(wallets)
         elif choice == "11":
             wallets = create_batch_wallets(wallets)
+        elif choice == "12":
+            export_recovery_sheet(wallets, password)
         elif choice == "0":
             save_wallets(password, wallets)
             print("💾 Changes saved. Goodbye.")
