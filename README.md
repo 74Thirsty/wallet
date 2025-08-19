@@ -60,6 +60,6 @@ All wallets are stored in a single encrypted file: wallets.enc.
 ⚠️ Security Notes
 
 🔑 Always back up your mnemonic + derivation path using the recovery sheet feature.<br>
-🛡 Forgetting your master password = unrecoverable funds.>br>
+🛡 Forgetting your master password = unrecoverable funds.<br>
 🏴 Vanity wallet generation is computationally expensive — longer prefixes can take hours.<br>
 💻 No telemetry, no cloud storage — your keys, your machine.
