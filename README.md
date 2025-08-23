@@ -74,7 +74,7 @@ openssl rand -hex 32 > wallet.salt
 
 ## 📄 License
 
-This project is released under the **Gadget Saavy Vault Script License**.  
+This project is released under the **Gadget Saavy Wallet Script License**.  
 See the full license text here: [LICENSE.md](./LICENSE.md)
 
 
