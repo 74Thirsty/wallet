@@ -69,3 +69,13 @@ openssl rand -hex 32 > wallet.salt
 🛡 Forgetting your master password = unrecoverable funds.<br>
 🏴 Vanity wallet generation is computationally expensive — longer prefixes can take hours.<br>
 💻 No telemetry, no cloud storage — your keys, your machine.
+
+---
+
+## 📄 License
+
+This project is released under the **Gadget Saavy Vault Script License**.  
+See the full license text here: [LICENSE.md](./LICENSE.md)
+
+
+---
