@@ -54,6 +54,15 @@ python wallet_manager.py
 You’ll be prompted to set a master password.
 All wallets are stored in a single encrypted file: wallets.enc.
 
+
+
+🔧 Generate a salt file (Linux / Parrot)
+
+Option 1: Using openssl
+```
+openssl rand -hex 32 > wallet.salt
+```
+
 ⚠️ Security Notes
 
 🔑 Always back up your mnemonic + derivation path using the recovery sheet feature.<br>
