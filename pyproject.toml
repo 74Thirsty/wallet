@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "your_package_name"            # lowercase, no spaces
+version = "0.1.0"                     # follow semver
+description = "Short description of your package"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+  { name="Your Name", email="your@email.com" }
+]
+keywords = ["example", "release", "package"]
+
+[project.urls]
+Homepage = "https://github.com/74Thirsty/wallet"
+Documentation = "https://github.com/74Thirsty/wallet#readme"
+Source = "https://github.com/74Thirsty/wallet"
+Tracker = "https://github.com/74Thirsty/wallet/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]                       # assumes your code is under ./src
+include = ["*"]
+exclude = ["tests*"]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
